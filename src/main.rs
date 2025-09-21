@@ -1,5 +1,6 @@
 mod compound;
 mod primitive;
+mod shadowing;
 mod string_slice;
 mod structs;
 
@@ -29,4 +30,6 @@ fn main() {
     // - evary variable by default is immutable in rust unless we use mut keyword
     // - constants are always immutable in rust meaning we cannot use mut keyword with constants, must declare the type of constant & use all uppercase with underscores. you can declare constants in any scope including global scope
     // const MAX_POINTS: u32 = 100_000;
+
+    shadowing::shadowin();
 }
