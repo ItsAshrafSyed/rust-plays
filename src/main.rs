@@ -1,4 +1,5 @@
 mod compound;
+mod loops;
 mod primitive;
 mod shadowing;
 mod string_slice;
@@ -32,4 +33,5 @@ fn main() {
     // const MAX_POINTS: u32 = 100_000;
 
     shadowing::shadowin();
+    loops::loops();
 }
