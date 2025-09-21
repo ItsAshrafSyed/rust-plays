@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "sec_hello"
+name = "rust_plays"
 version = "0.1.0"

@@ -1,5 +1,5 @@
 [package]
-name = "sec_hello"
+name = "rust_plays"
 version = "0.1.0"
 edition = "2024"
 
